@@ -11,12 +11,12 @@ body {
 }
 
 a {
-  color: #5B5FEF;
+  color: #443E6F;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #5B5FEF;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5B5FEF;
+  background: #443E6F;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -81,7 +81,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5B5FEF;
+  border: 6px solid #443E6F;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -207,7 +207,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #5B5FEF;
+  background: #443E6F;
 }
 
 .nav-menu a:hover span,
@@ -245,10 +245,12 @@ h6 {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
+  color: #faf9ff;
+
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #443E6F;
 }
 
 .mobile-nav-active {
@@ -399,7 +401,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #5B5FEF;
+  color: #443E6F;
 }
 
 .about .content ul {
@@ -907,7 +909,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5B5FEF;
+  background: #443e6f;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -917,6 +919,22 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #6A5AE0;
+}
+
+.cv-btn {
+  display: inline-block;
+  background: #443e6f;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.cv-btn:hover {
+  background: #6A5AE0;
+  color: #fff;
 }
 
 @keyframes animate-loading {
