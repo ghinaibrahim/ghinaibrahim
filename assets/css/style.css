@@ -693,7 +693,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #5B5FEF;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -701,7 +701,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #6A5AE0;
+  color: #45505b;
 }
 
 .portfolio .portfolio-wrap:hover::before {
